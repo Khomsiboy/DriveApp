@@ -23,7 +23,7 @@ class ResultActivity : AppCompatActivity(), CoroutineScope {
         get() = Dispatchers.Main + job
 
     lateinit var item: Item
-
+//Hello
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
