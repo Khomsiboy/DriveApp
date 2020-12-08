@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your Progress"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-light"
+        />
+
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="It will help you to pass the test"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/parent_Result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/R1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/gb_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/TotalScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="20"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-medium"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Total"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-light"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:id="@+id/R2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/gb_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/totalTest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="20"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-medium"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Total Test"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-light"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFF"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp">
+
+                <LinearLayout
+                    android:id="@+id/R3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/gb_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="20"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-medium"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Chapters"
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="sans-serif-light"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/bild"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/patent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="START"
+                android:textColor="@android:color/white"
+                >
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
