@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Result"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/score_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:text="Your Score is 9 out of 10"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="100dp"
+        app:srcCompat="@drawable/saturn" />
+
+    <ImageView
+        android:id="@+id/satilit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/satellite"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/flag"
+        android:layout_marginTop="150dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/result_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/white"
+        android:elevation="5dp"
+        android:text="FINISH"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
