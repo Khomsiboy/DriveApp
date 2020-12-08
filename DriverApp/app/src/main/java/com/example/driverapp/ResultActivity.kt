@@ -49,7 +49,7 @@ class ResultActivity : AppCompatActivity(), CoroutineScope {
         bild2id.startAnimation(bild2)
         bild3id.startAnimation(bild3)
 
-
+//Hello
         val list = getAllItem()
         val SaveScore: MutableList<Int> = mutableListOf(0)
         val SavedTest: MutableList<Int> = mutableListOf(0)
